@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+body {
+    font-family: "Lato", sans-serif;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #343434;
+    text-align: center;
+    color: #fff;
+    font-size: 24pt;
+    overflow-y: hidden;
+}
+/* Responsive */
+@media screen and (min-width: 601px) {
+    #particles-js {
+        font-size: 24pt;
+    }
+}
+@media screen and (max-width: 600px) {
+    #particles-js {
+        font-size: 11pt;
+    }
+}
